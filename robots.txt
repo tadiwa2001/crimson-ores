@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Update the domain below to your deployed URL.
-Sitemap: https://crimson-ores.example.com/sitemap.xml
+Sitemap: https://tadiwa2001.github.io/crimson-ores/sitemap.xml
