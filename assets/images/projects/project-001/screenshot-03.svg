@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#0A1215"/>
+  <rect width="1200" height="56" fill="#0C1A1E"/>
+  <circle cx="22" cy="28" r="6" fill="#14DDE5" opacity="0.85"/>
+  <circle cx="44" cy="28" r="6" fill="#AEBFC1" opacity="0.35"/>
+  <circle cx="66" cy="28" r="6" fill="#AEBFC1" opacity="0.35"/>
+  <text x="120" y="34" fill="#AEBFC1" font-size="15" font-weight="600">CRIMSON ORES</text>
+  <text x="600" y="35" fill="#8CE9EE" font-size="16" font-weight="600" text-anchor="middle">GEOLOGICAL CROSS-SECTION — A–A′</text>
+  <rect x="224" y="76" width="952" height="620" rx="12" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.16"/>
+  <text x="244" y="104" fill="#AEBFC1" font-size="13" font-weight="600">SECTION A–A′ · ORE INTERCEPTS</text>
+  <!-- strata -->
+  <path d="M244 180 C420 150 700 170 1176 150 L1176 680 L244 680 Z" fill="#0A1416"/>
+  <path d="M244 300 C400 280 720 300 1176 280 L1176 680 L244 680 Z" fill="#0C1A1D"/>
+  <path d="M244 420 C420 400 760 420 1176 400 L1176 680 L244 680 Z" fill="#0E1E22"/>
+  <path d="M244 540 C460 520 800 545 1176 520 L1176 680 L244 680 Z" fill="#102227"/>
+  <!-- surface -->
+  <path d="M244 180 C420 150 700 170 1176 150" fill="none" stroke="#14DDE5" stroke-opacity="0.5" stroke-width="2"/>
+  <!-- drillholes -->
+  <g stroke="#AEBFC1" stroke-width="2.5" fill="none">
+    <line x1="450" y1="158" x2="450" y2="650"/>
+    <line x1="640" y1="162" x2="640" y2="650"/>
+    <line x1="830" y1="155" x2="830" y2="650"/>
+  </g>
+  <!-- ore intercepts (bright) -->
+  <g stroke="#14DDE5" stroke-width="9" stroke-linecap="round">
+    <line x1="450" y1="330" x2="450" y2="410"/>
+    <line x1="640" y1="300" x2="640" y2="430"/>
+    <line x1="830" y1="360" x2="830" y2="470"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1">
+    <path d="M450 158 l-8 0 M450 178 l-8 0 M450 198 l-8 0"/>
+    <path d="M640 162 l-8 0 M640 182 l-8 0 M640 202 l-8 0"/>
+    <path d="M830 155 l-8 0 M830 175 l-8 0 M830 195 l-8 0"/>
+  </g>
+  <g fill="#8CE9EE" font-size="12" font-weight="600">
+    <text x="450" y="142" text-anchor="middle">DH-014</text>
+    <text x="640" y="146" text-anchor="middle">DH-022</text>
+    <text x="830" y="140" text-anchor="middle">DH-031</text>
+  </g>
+  <g fill="#7E9094" font-size="11">
+    <text x="450" y="430" text-anchor="middle" fill="#14DDE5">3.2 m @ 1.9% Cu</text>
+    <text x="640" y="448" text-anchor="middle" fill="#14DDE5">5.8 m @ 2.3% Cu</text>
+    <text x="830" y="488" text-anchor="middle" fill="#14DDE5">4.1 m @ 1.6% Cu</text>
+  </g>
+  <!-- depth scale -->
+  <g stroke="#7E9094" stroke-opacity="0.4">
+    <line x1="256" y1="200" x2="272" y2="200"/>
+    <line x1="256" y1="300" x2="272" y2="300"/>
+    <line x1="256" y1="400" x2="272" y2="400"/>
+    <line x1="256" y1="500" x2="272" y2="500"/>
+    <line x1="256" y1="600" x2="272" y2="600"/>
+  </g>
+  <g fill="#7E9094" font-size="10.5" text-anchor="end">
+    <text x="250" y="204">0 m</text>
+    <text x="250" y="304">100 m</text>
+    <text x="250" y="404">200 m</text>
+    <text x="250" y="504">300 m</text>
+    <text x="250" y="604">400 m</text>
+  </g>
+  <!-- legend -->
+  <g>
+    <rect x="244" y="660" width="912" height="28" rx="8" fill="#0A1416"/>
+    <line x1="264" y1="674" x2="292" y2="674" stroke="#14DDE5" stroke-width="6" stroke-linecap="round"/>
+    <text x="300" y="678" fill="#7E9094" font-size="11">Ore intercept</text>
+    <line x1="400" y1="674" x2="428" y2="674" stroke="#AEBFC1" stroke-width="2"/>
+    <text x="436" y="678" fill="#7E9094" font-size="11">Drillhole trace</text>
+    <rect x="560" y="668" width="14" height="12" fill="#0E1E22"/><text x="580" y="678" fill="#7E9094" font-size="11">Host rock</text>
+  </g>
+</svg>

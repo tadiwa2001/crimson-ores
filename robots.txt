@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Update the domain below to your deployed URL.
+Sitemap: https://crimson-ores.example.com/sitemap.xml

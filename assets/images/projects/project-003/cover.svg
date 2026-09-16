@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#0A1215"/>
+  <rect width="1200" height="56" fill="#0C1A1E"/>
+  <circle cx="22" cy="28" r="6" fill="#14DDE5" opacity="0.85"/>
+  <circle cx="44" cy="28" r="6" fill="#AEBFC1" opacity="0.35"/>
+  <circle cx="66" cy="28" r="6" fill="#AEBFC1" opacity="0.35"/>
+  <text x="120" y="34" fill="#AEBFC1" font-size="15" font-weight="600">CRIMSON ORES</text>
+  <text x="600" y="35" fill="#8CE9EE" font-size="16" font-weight="600" text-anchor="middle">DRILL &amp; BLAST DESIGN</text>
+  <rect x="1050" y="14" width="120" height="28" rx="6" fill="#FFD166" opacity="0.12"/>
+  <text x="1110" y="33" fill="#FFD166" font-size="13" font-weight="600">SIMULATION</text>
+  <rect x="224" y="76" width="222" height="84" rx="10" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.18"/>
+  <text x="242" y="102" fill="#7E9094" font-size="12">HOLE DIAMETER</text>
+  <text x="242" y="134" fill="#FFFFFF" font-size="26" font-weight="700">115 mm</text>
+  <rect x="462" y="76" width="222" height="84" rx="10" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.18"/>
+  <text x="480" y="102" fill="#7E9094" font-size="12">BENCH HEIGHT</text>
+  <text x="480" y="134" fill="#FFFFFF" font-size="26" font-weight="700">10 m</text>
+  <rect x="700" y="76" width="222" height="84" rx="10" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.18"/>
+  <text x="718" y="102" fill="#7E9094" font-size="12">POWDER FACTOR</text>
+  <text x="718" y="134" fill="#FFFFFF" font-size="26" font-weight="700">0.85 kg/m³</text>
+  <rect x="938" y="76" width="238" height="84" rx="10" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.18"/>
+  <text x="956" y="102" fill="#7E9094" font-size="12">FRAGMENTATION P80</text>
+  <text x="956" y="134" fill="#FFFFFF" font-size="26" font-weight="700">120 mm</text>
+  <!-- left: blast pattern -->
+  <rect x="224" y="180" width="580" height="480" rx="12" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.16"/>
+  <text x="244" y="208" fill="#AEBFC1" font-size="13" font-weight="600">BLAST PATTERN — BENCH 240</text>
+  <rect x="300" y="230" width="420" height="360" fill="none" stroke="#AEBFC1" stroke-opacity="0.4" stroke-width="2"/>
+  <line x1="300" y1="230" x2="300" y2="590" stroke="#2ECC71" stroke-width="3"/>
+  <text x="300" y="620" fill="#2ECC71" font-size="11" text-anchor="middle">FREE FACE</text>
+  <g fill="#14DDE5">
+    <circle cx="340" cy="270" r="5"/><circle cx="380" cy="270" r="5"/><circle cx="420" cy="270" r="5"/><circle cx="460" cy="270" r="5"/><circle cx="500" cy="270" r="5"/><circle cx="540" cy="270" r="5"/><circle cx="580" cy="270" r="5"/><circle cx="620" cy="270" r="5"/><circle cx="660" cy="270" r="5"/>
+    <circle cx="340" cy="330" r="5"/><circle cx="380" cy="330" r="5"/><circle cx="420" cy="330" r="5"/><circle cx="460" cy="330" r="5"/><circle cx="500" cy="330" r="5"/><circle cx="540" cy="330" r="5"/><circle cx="580" cy="330" r="5"/><circle cx="620" cy="330" r="5"/><circle cx="660" cy="330" r="5"/>
+    <circle cx="340" cy="390" r="5"/><circle cx="380" cy="390" r="5"/><circle cx="420" cy="390" r="5"/><circle cx="460" cy="390" r="5"/><circle cx="500" cy="390" r="5"/><circle cx="540" cy="390" r="5"/><circle cx="580" cy="390" r="5"/><circle cx="620" cy="390" r="5"/><circle cx="660" cy="390" r="5"/>
+    <circle cx="340" cy="450" r="5"/><circle cx="380" cy="450" r="5"/><circle cx="420" cy="450" r="5"/><circle cx="460" cy="450" r="5"/><circle cx="500" cy="450" r="5"/><circle cx="540" cy="450" r="5"/><circle cx="580" cy="450" r="5"/><circle cx="620" cy="450" r="5"/><circle cx="660" cy="450" r="5"/>
+    <circle cx="340" cy="510" r="5"/><circle cx="380" cy="510" r="5"/><circle cx="420" cy="510" r="5"/><circle cx="460" cy="510" r="5"/><circle cx="500" cy="510" r="5"/><circle cx="540" cy="510" r="5"/><circle cx="580" cy="510" r="5"/><circle cx="620" cy="510" r="5"/><circle cx="660" cy="510" r="5"/>
+    <circle cx="340" cy="570" r="5"/><circle cx="380" cy="570" r="5"/><circle cx="420" cy="570" r="5"/><circle cx="460" cy="570" r="5"/><circle cx="500" cy="570" r="5"/><circle cx="540" cy="570" r="5"/><circle cx="580" cy="570" r="5"/><circle cx="620" cy="570" r="5"/><circle cx="660" cy="570" r="5"/>
+  </g>
+  <g stroke="#FFD166" stroke-width="1.5">
+    <line x1="340" y1="245" x2="340" y2="600" stroke-dasharray="4 4" opacity="0.6"/>
+    <line x1="300" y1="270" x2="720" y2="270" stroke-dasharray="4 4" opacity="0.6"/>
+  </g>
+  <text x="680" y="270" fill="#FFD166" font-size="11">Spacing 4.0 m</text>
+  <text x="340" y="238" fill="#FFD166" font-size="11">Burden 3.5 m</text>
+  <rect x="822" y="180" width="354" height="480" rx="12" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.16"/>
+  <text x="842" y="208" fill="#AEBFC1" font-size="13" font-weight="600">CHARGE &amp; INITIATION</text>
+  <g font-size="12.5" fill="#7E9094">
+    <text x="842" y="242">Hole depth</text><text x="1156" y="242" fill="#FFFFFF" text-anchor="end">11.5 m</text>
+    <text x="842" y="270">Sub-drill</text><text x="1156" y="270" fill="#FFFFFF" text-anchor="end">1.0 m</text>
+    <text x="842" y="298">Stemming</text><text x="1156" y="298" fill="#FFFFFF" text-anchor="end">3.0 m</text>
+    <text x="842" y="326">Charge / hole</text><text x="1156" y="326" fill="#FFFFFF" text-anchor="end">72 kg</text>
+    <text x="842" y="354">Explosive</text><text x="1156" y="354" fill="#FFFFFF" text-anchor="end">ANFO</text>
+    <text x="842" y="382">Initiation</text><text x="1156" y="382" fill="#FFFFFF" text-anchor="end">Electronic</text>
+    <text x="842" y="410">Delay pattern</text><text x="1156" y="410" fill="#FFFFFF" text-anchor="end">25 ms</text>
+    <text x="842" y="438">Rows × holes</text><text x="1156" y="438" fill="#FFFFFF" text-anchor="end">6 × 9</text>
+    <text x="842" y="466">Total charge</text><text x="1156" y="466" fill="#FFFFFF" text-anchor="end">3,888 kg</text>
+  </g>
+  <rect x="842" y="490" width="314" height="1" fill="#14DDE5" opacity="0.15"/>
+  <text x="842" y="520" fill="#8CE9EE" font-size="12" font-weight="600">PREDICTED RESULT</text>
+  <g font-size="12.5" fill="#7E9094">
+    <text x="842" y="548">Rock volume</text><text x="1156" y="548" fill="#FFFFFF" text-anchor="end">21,600 m³</text>
+    <text x="842" y="576">Tonnage</text><text x="1156" y="576" fill="#FFFFFF" text-anchor="end">58,300 t</text>
+    <text x="842" y="604">P80 fragmentation</text><text x="1156" y="604" fill="#FFFFFF" text-anchor="end">120 mm</text>
+    <text x="842" y="632">Vibration (PPV)</text><text x="1156" y="632" fill="#FFFFFF" text-anchor="end">8.4 mm/s</text>
+  </g>
+  <rect x="224" y="672" width="952" height="64" rx="12" fill="#0D171A" stroke="#14DDE5" stroke-opacity="0.16"/>
+  <text x="244" y="700" fill="#AEBFC1" font-size="13" font-weight="600">INITIATION SEQUENCE</text>
+  <g font-size="10" fill="#7E9094" text-anchor="middle">
+    <circle cx="330" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="330" y="704" fill="#041B1F" font-weight="700">0</text>
+    <circle cx="390" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="390" y="704" fill="#041B1F" font-weight="700">25</text>
+    <circle cx="450" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="450" y="704" fill="#041B1F" font-weight="700">50</text>
+    <circle cx="510" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="510" y="704" fill="#041B1F" font-weight="700">75</text>
+    <circle cx="570" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="570" y="704" fill="#041B1F" font-weight="700">100</text>
+    <circle cx="630" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="630" y="704" fill="#041B1F" font-weight="700">125</text>
+    <circle cx="690" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="690" y="704" fill="#041B1F" font-weight="700">150</text>
+    <circle cx="750" cy="700" r="12" fill="#14DDE5" opacity="0.9"/><text x="750" y="704" fill="#041B1F" font-weight="700">175</text>
+    <text x="820" y="704" fill="#7E9094">…</text>
+    <text x="1000" y="704" fill="#7E9094">delay (ms)</text>
+  </g>
+</svg>

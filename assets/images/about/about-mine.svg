@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A1518"/>
+      <stop offset="1" stop-color="#0C1B1F"/>
+    </linearGradient>
+    <linearGradient id="ore" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#008C95"/>
+      <stop offset="1" stop-color="#14DDE5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="16" fill="#0D1517"/>
+  <rect x="0" y="0" width="800" height="250" fill="url(#sky)"/>
+  <circle cx="620" cy="120" r="60" fill="none" stroke="#14DDE5" stroke-opacity="0.25" stroke-width="1.5"/>
+  <circle cx="620" cy="120" r="30" fill="#14DDE5" fill-opacity="0.10"/>
+  <path d="M0 250 H800 V600 H0 Z" fill="#0A1416"/>
+  <path d="M0 300 Q200 280 400 300 T800 300 V600 H0 Z" fill="#0C1A1D"/>
+  <path d="M0 370 Q220 350 420 372 T800 366 V600 H0 Z" fill="#0E1E22"/>
+  <path d="M0 450 Q240 430 480 452 T800 448 V600 H0 Z" fill="#102227"/>
+  <path d="M0 530 Q260 515 520 532 T800 528 V600 H0 Z" fill="#12262B"/>
+  <path d="M120 470 L180 430 L260 470 L340 425 L420 465 L500 430 L560 460" fill="none" stroke="url(#ore)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M560 246 L704 354 L704 470 L600 520" fill="none" stroke="#05090A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M560 252 L700 360 L700 470 L600 520" fill="none" stroke="#14DDE5" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 6"/>
+  <g stroke="#AEBFC1" stroke-width="3" fill="none">
+    <path d="M600 250 L585 190 L625 190 L612 250"/>
+    <line x1="560" y1="250" x2="650" y2="250"/>
+    <line x1="585" y1="190" x2="625" y2="190"/>
+  </g>
+  <circle cx="605" cy="185" r="5" fill="#14DDE5"/>
+  <text x="640" y="340" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#AEBFC1">Decline</text>
+</svg>
