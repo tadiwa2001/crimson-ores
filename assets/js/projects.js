@@ -20,108 +20,301 @@
   var projects = [
     {
       id: 'project-001',
-      title: 'Project 01 — Title to Be Added',
-      category: 'Mine Planning',
-      shortDescription:
-        'Placeholder. Replace this with a short, one-line summary of this mine-planning project, system or prototype.',
+      title: 'Smart Ventilation System',
+      category: 'Ventilation',
+      shortDescription: 'Underground air, intelligently managed.',
       fullDescription:
-        'Placeholder overview. Use this space to describe the purpose, scope and objectives of this project in a few sentences.',
+        'Our Smart Ventilation System is a complete package built for safety and efficiency: gas sensors, temperature and humidity sensors, booster and main fans, connectivity infrastructure, SCADA software, and wiring — all working together to monitor conditions and automatically adjust airflow in real time. It replaces guesswork with live data, cutting the risk of gas buildup and heat stress while reducing the energy costs of running ventilation around the clock.',
       problem:
-        'Placeholder. Describe the specific mining problem, challenge or inefficiency this project sets out to address.',
+        'Underground ventilation is often run on guesswork, exposing miners to the risk of gas buildup and heat stress while wasting energy on fans that run around the clock.',
       solution:
-        'Placeholder. Describe the proposed solution, or the solution currently being developed, and how it tackles the problem above.',
+        'A complete, connected ventilation package that monitors conditions and automatically adjusts airflow in real time.',
       howItWorks:
-        'Placeholder. Explain how the solution works in practice — its workflow, core mechanism or how the technology is applied.',
+        'Gas, temperature and humidity sensors feed live data through connectivity infrastructure into SCADA software, which automatically adjusts booster and main fans to match airflow to the actual conditions underground.',
       features: [
-        'Placeholder feature',
-        'Placeholder feature',
-        'Placeholder feature',
-        'Placeholder feature'
+        'Gas, temperature and humidity sensors',
+        'Booster and main fans',
+        'Connectivity infrastructure',
+        'SCADA software for real-time monitoring',
+        'Automatic airflow adjustment'
       ],
-      technologies: ['To be confirmed', 'To be confirmed'],
+      technologies: ['Gas sensors', 'SCADA software', 'IoT connectivity', 'Booster fans'],
       miningApplication:
-        'Placeholder. Describe how this project applies to real-world mining operations and where it fits into the mining value chain.',
-      safetyBenefits: ['Placeholder safety benefit.'],
-      efficiencyBenefits: ['Placeholder efficiency benefit.'],
-      sustainabilityBenefits: ['Placeholder sustainability benefit.'],
-      status: 'Concept',
+        'Underground mine ventilation — monitoring and controlling air quality and airflow to keep working conditions safe.',
+      safetyBenefits: [
+        'Reduces the risk of gas buildup',
+        'Reduces the risk of heat stress',
+        'Replaces guesswork with live, accurate condition data'
+      ],
+      efficiencyBenefits: [
+        'Automatic airflow adjustment reduces wasted ventilation energy',
+        'Live data supports faster, better operational decisions'
+      ],
+      sustainabilityBenefits: [
+        'Lowers the energy consumption of round-the-clock ventilation'
+      ],
+      status: 'Prototype',
       statusDescription:
-        'Concept — this project is currently at the idea and early planning stage.',
+        'Prototype — the Smart Ventilation System is being developed and refined by Crimson Ores.',
       featured: true,
-      coverImage: 'assets/images/projects/project-001/cover.svg',
+      coverImage: 'assets/images/projects/project-001/cover.jpeg',
       gallery: [
-        { src: 'assets/images/projects/project-001/cover.svg', caption: 'Mine planning and design dashboard' },
-        { src: 'assets/images/projects/project-001/screenshot-01.svg', caption: 'Production scheduling dashboard' },
-        { src: 'assets/images/projects/project-001/screenshot-02.svg', caption: '3D resource block model' },
-        { src: 'assets/images/projects/project-001/screenshot-03.svg', caption: 'Geological cross-section — drillholes and ore intercepts' }
+        { src: 'assets/images/projects/project-001/cover.jpeg', caption: 'Smart Ventilation System' },
+        { src: 'assets/images/projects/project-001/screenshot-01.jpeg', caption: 'Smart Ventilation System — component view' }
       ]
     },
     {
       id: 'project-002',
-      title: 'Project 02 — Title to Be Added',
-      category: 'Environmental Monitoring',
-      shortDescription:
-        'Placeholder. Replace this with a short summary of this environmental-monitoring project, system or prototype.',
+      title: 'Smart Torch',
+      category: 'Other Innovation',
+      shortDescription: 'More than light — a lifeline.',
       fullDescription:
-        'Placeholder overview. Use this space to describe the purpose, scope and objectives of this project in a few sentences.',
+        'The Smart Torch is a miner\'s torch built with a personnel tracker, giving real-time visibility into a miner\'s location, environment temperature, and gas levels. It turns a basic safety tool into a connected safety system, helping teams respond faster when something goes wrong underground.',
       problem:
-        'Placeholder. Describe the specific environmental or monitoring challenge this project addresses.',
+        'A basic torch gives light but offers no way to locate a miner or monitor the conditions around them if something goes wrong underground.',
       solution:
-        'Placeholder. Describe the proposed solution, or the solution currently being developed, and how it tackles the problem above.',
+        'A miner\'s torch with a built-in personnel tracker that reports location, temperature and gas levels in real time.',
       howItWorks:
-        'Placeholder. Explain how the solution works in practice — its workflow, core mechanism or how the technology is applied.',
+        'The torch combines lighting with an embedded tracker that continuously reports the miner\'s location and surrounding environment, so teams can locate and respond faster when something goes wrong.',
       features: [
-        'Placeholder feature',
-        'Placeholder feature',
-        'Placeholder feature'
+        'Built-in personnel tracker',
+        'Real-time location visibility',
+        'Environment temperature monitoring',
+        'Gas-level monitoring',
+        'Connected safety system'
       ],
-      technologies: ['To be confirmed', 'To be confirmed'],
+      technologies: ['Personnel tracking', 'Environmental sensors', 'Wireless connectivity'],
       miningApplication:
-        'Placeholder. Describe how this project applies to real-world mining operations and where it fits into the mining value chain.',
-      safetyBenefits: ['Placeholder safety benefit.'],
-      efficiencyBenefits: ['Placeholder efficiency benefit.'],
-      sustainabilityBenefits: ['Placeholder sustainability benefit.'],
+        'Underground mining — personal safety and personnel tracking for faster emergency response.',
+      safetyBenefits: [
+        'Real-time visibility into a miner\'s location',
+        'Faster response when something goes wrong underground',
+        'Turns a basic safety tool into a connected safety system'
+      ],
+      efficiencyBenefits: [
+        'Teams can locate personnel and respond faster'
+      ],
+      sustainabilityBenefits: [
+        'A durable, integrated device that consolidates safety and tracking'
+      ],
       status: 'Prototype',
       statusDescription:
-        'Prototype — an early working model of this solution is being developed and refined.',
+        'Prototype — the Smart Torch is being developed and refined by Crimson Ores.',
       featured: true,
-      coverImage: 'assets/images/projects/project-002/cover.svg',
+      coverImage: 'assets/images/projects/project-002/cover.jpeg',
       gallery: [
-        { src: 'assets/images/projects/project-002/cover.svg', caption: 'Environmental monitoring dashboard' },
-        { src: 'assets/images/projects/project-002/screenshot-01.svg', caption: 'Sensor node assembly and live telemetry' }
+        { src: 'assets/images/projects/project-002/cover.jpeg', caption: 'Smart Torch' },
+        { src: 'assets/images/projects/project-002/screenshot-01.jpeg', caption: 'Smart Torch — additional view' }
       ]
     },
     {
       id: 'project-003',
-      title: 'Project 03 — Title to Be Added',
-      category: 'Drilling & Blasting',
-      shortDescription:
-        'Placeholder. Replace this with a short summary of this drilling-and-blasting project, system or prototype.',
+      title: 'Solar Windlass',
+      category: 'Ore Handling',
+      shortDescription: 'Powering up small-scale mining, safely.',
       fullDescription:
-        'Placeholder overview. Use this space to describe the purpose, scope and objectives of this project in a few sentences.',
+        'Solar Windlass is a solar-powered mechanized windlass that replaces manual hand-cranked winching for lowering and raising people, equipment, and broken rock in mining shafts. Built for miners sinking shafts up to 30 metres, it cuts physical strain and risk while keeping operations compliant with the Mining (Management and Safety) Regulations.',
       problem:
-        'Placeholder. Describe the specific drilling or blasting challenge this project addresses.',
+        'Lowering and raising people, equipment and broken rock by hand-cranked winching is physically demanding and risky for miners sinking shafts.',
       solution:
-        'Placeholder. Describe the proposed solution, or the solution currently being developed, and how it tackles the problem above.',
+        'A solar-powered mechanized windlass that replaces manual hand-cranking for shaft hoisting.',
       howItWorks:
-        'Placeholder. Explain how the solution works in practice — its workflow, core mechanism or how the technology is applied.',
+        'A solar-powered motor drives a windlass drum to raise and lower a kibble in the shaft, removing manual cranking while keeping operations compliant with the Mining (Management and Safety) Regulations.',
       features: [
-        'Placeholder feature',
-        'Placeholder feature'
+        'Solar-powered drive',
+        'Mechanized winching',
+        'Raises and lowers people, equipment and broken rock',
+        'Built for shafts up to 30 metres',
+        'Compliant with Mining (Management and Safety) Regulations'
       ],
-      technologies: ['To be confirmed', 'To be confirmed'],
+      technologies: ['Solar power', 'Electric winch motor', 'Hoisting drum'],
       miningApplication:
-        'Placeholder. Describe how this project applies to real-world mining operations and where it fits into the mining value chain.',
-      safetyBenefits: ['Placeholder safety benefit.'],
-      efficiencyBenefits: ['Placeholder efficiency benefit.'],
-      sustainabilityBenefits: ['Placeholder sustainability benefit.'],
-      status: 'Research',
+        'Small-scale shaft sinking and hoisting — lowering and raising people, equipment and broken rock.',
+      safetyBenefits: [
+        'Cuts physical strain on miners',
+        'Reduces risk compared to manual hand-cranking'
+      ],
+      efficiencyBenefits: [
+        'Mechanizes a slow, manual task'
+      ],
+      sustainabilityBenefits: [
+        'Runs on solar power instead of manual or fuel-driven effort'
+      ],
+      status: 'Prototype',
       statusDescription:
-        'Research — this project is being investigated and scoped before full development.',
+        'Prototype — the Solar Windlass is being developed and refined by Crimson Ores.',
       featured: true,
       coverImage: 'assets/images/projects/project-003/cover.svg',
       gallery: [
-        { src: 'assets/images/projects/project-003/cover.svg', caption: 'Drill and blast design — blast pattern' }
+        { src: 'assets/images/projects/project-003/cover.svg', caption: 'Solar Windlass' }
+      ]
+    },
+    {
+      id: 'project-004',
+      title: 'Solar Powered Water Recycling System',
+      category: 'Environmental Monitoring',
+      shortDescription: 'Turning waste water into a working resource.',
+      fullDescription:
+        'This solar-powered system pumps water reached at the water table during shaft sinking, filters it, and recycles it for drilling, dust suppression after blasting, water blasting, and blowpipe use. It gives small-scale miners a self-sufficient water source, solving a problem many can\'t afford to fix with boreholes or built water facilities.',
+      problem:
+        'Small-scale miners often cannot afford boreholes or built water facilities, leaving the water reached at the water table during shaft sinking unused.',
+      solution:
+        'A solar-powered system that pumps, filters and recycles shaft water for operational use.',
+      howItWorks:
+        'A solar-powered pump lifts water reached at the water table during shaft sinking, passes it through filtration, and recycles it for drilling, dust suppression after blasting, water blasting and blowpipe use.',
+      features: [
+        'Solar-powered pumping',
+        'Water filtration',
+        'Recycled for drilling',
+        'Dust suppression after blasting',
+        'Water blasting and blowpipe use',
+        'Self-sufficient water source'
+      ],
+      technologies: ['Solar power', 'Water pump', 'Filtration'],
+      miningApplication:
+        'Small-scale mining — a self-sufficient water supply and recycling system for shaft-sinking operations.',
+      safetyBenefits: [
+        'Supports dust suppression after blasting',
+        'Provides a reliable water source for safer operations'
+      ],
+      efficiencyBenefits: [
+        'Provides a self-sufficient water source without boreholes or built facilities'
+      ],
+      sustainabilityBenefits: [
+        'Recycles waste water instead of drawing on external sources',
+        'Runs on solar power'
+      ],
+      status: 'Prototype',
+      statusDescription:
+        'Prototype — the Solar Powered Water Recycling System is being developed and refined by Crimson Ores.',
+      featured: false,
+      coverImage: 'assets/images/projects/project-004/cover.svg',
+      gallery: [
+        { src: 'assets/images/projects/project-004/cover.svg', caption: 'Solar Powered Water Recycling System' }
+      ]
+    },
+    {
+      id: 'project-005',
+      title: 'Shot Exploder',
+      category: 'Drilling & Blasting',
+      shortDescription: 'Distance is safety.',
+      fullDescription:
+        'The Shot Exploder is a self-generating electric blasting initiation device that lets miners fire charges from a safe distance, replacing the dangerous practice of manually lighting fuses and running. It directly tackles one of the biggest daily risks facing artisanal miners in Zimbabwe: premature detonation.',
+      problem:
+        'Manually lighting fuses and running exposes artisanal miners to the risk of premature detonation.',
+      solution:
+        'A self-generating electric blasting initiation device that fires charges from a safe distance.',
+      howItWorks:
+        'The self-generating device produces its own electrical charge to initiate blasting remotely, letting miners fire charges from a safe distance instead of lighting fuses by hand.',
+      features: [
+        'Self-generating (no battery needed)',
+        'Electric blasting initiation',
+        'Firing from a safe distance',
+        'Replaces manual fuse lighting'
+      ],
+      technologies: ['Self-generating blasting unit', 'Electric initiation circuit'],
+      miningApplication:
+        'Artisanal and small-scale blasting — safe remote initiation of charges.',
+      safetyBenefits: [
+        'Lets miners fire charges from a safe distance',
+        'Directly tackles the risk of premature detonation'
+      ],
+      efficiencyBenefits: [
+        'Faster, more controlled blasting initiation'
+      ],
+      sustainabilityBenefits: [
+        'Self-generating design avoids disposable batteries'
+      ],
+      status: 'Prototype',
+      statusDescription:
+        'Prototype — the Shot Exploder is being developed and refined by Crimson Ores.',
+      featured: false,
+      coverImage: 'assets/images/projects/project-005/cover.svg',
+      gallery: [
+        { src: 'assets/images/projects/project-005/cover.svg', caption: 'Shot Exploder' }
+      ]
+    },
+    {
+      id: 'project-006',
+      title: 'Construction Material from Waste',
+      category: 'Other Innovation',
+      shortDescription: 'Turning mine waste into building blocks.',
+      fullDescription:
+        'This Crusher crushes proven waste rock from mine development into construction material sized to client specification, ready for use in concrete, foundations, and other infrastructure.',
+      problem:
+        'Waste rock from mine development is often discarded instead of being put to productive use.',
+      solution:
+        'A crusher that turns proven waste rock into construction material sized to client specification.',
+      howItWorks:
+        'The crusher processes proven waste rock from mine development and sizes it into construction material ready for use in concrete, foundations and other infrastructure.',
+      features: [
+        'Crushes waste rock from mine development',
+        'Sized to client specification',
+        'Output ready for concrete and foundations',
+        'Useful in other infrastructure'
+      ],
+      technologies: ['Crusher', 'Aggregate sizing'],
+      miningApplication:
+        'Mine development — converting waste rock into saleable construction material.',
+      safetyBenefits: [
+        'Reduces waste rock stockpiles on site'
+      ],
+      efficiencyBenefits: [
+        'Creates value from material that would otherwise be discarded'
+      ],
+      sustainabilityBenefits: [
+        'Turns mine waste into a reusable resource',
+        'Reduces demand for virgin construction materials'
+      ],
+      status: 'Prototype',
+      statusDescription:
+        'Prototype — the Construction Material from Waste crusher is being developed and refined by Crimson Ores.',
+      featured: false,
+      coverImage: 'assets/images/projects/project-006/cover.svg',
+      gallery: [
+        { src: 'assets/images/projects/project-006/cover.svg', caption: 'Construction Material from Waste — crusher' }
+      ]
+    },
+    {
+      id: 'project-007',
+      title: 'Rock Support Device',
+      category: 'Rock Mechanics',
+      shortDescription: 'Standing between miners and rockfalls.',
+      fullDescription:
+        'The Rock Support Device is a hydraulic support system installed in tunnels, extending up to 3 metres vertically to exert force against the roof and walls and prevent collapses.',
+      problem:
+        'Rockfalls in tunnels threaten the safety of miners underground.',
+      solution:
+        'A hydraulic support system that braces tunnel roofs and walls to prevent collapses.',
+      howItWorks:
+        'Installed in tunnels, the hydraulic support extends up to 3 metres vertically to exert force against the roof and walls, reinforcing the ground and preventing collapses.',
+      features: [
+        'Hydraulic support system',
+        'Installed in tunnels',
+        'Extends up to 3 metres vertically',
+        'Exerts force against roof and walls',
+        'Prevents collapses'
+      ],
+      technologies: ['Hydraulic support', 'Tunnel reinforcement'],
+      miningApplication:
+        'Underground ground control — supporting tunnel roofs and walls against rockfalls.',
+      safetyBenefits: [
+        'Prevents tunnel collapses',
+        'Protects miners from rockfalls'
+      ],
+      efficiencyBenefits: [
+        'Reusable, relocatable ground support'
+      ],
+      sustainabilityBenefits: [
+        'Reinforces existing workings for safer, longer-lived tunnels'
+      ],
+      status: 'Prototype',
+      statusDescription:
+        'Prototype — the Rock Support Device is being developed and refined by Crimson Ores.',
+      featured: false,
+      coverImage: 'assets/images/projects/project-007/cover.svg',
+      gallery: [
+        { src: 'assets/images/projects/project-007/cover.svg', caption: 'Rock Support Device' }
       ]
     }
   ];

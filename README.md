@@ -213,14 +213,12 @@ Before deploying, update `robots.txt`, `sitemap.xml` and the `<link rel="canonic
 
 ---
 
-## 11. Placeholders you still need to replace
+## 11. Remaining placeholders
 
-- **Logo** — `assets/images/logo/*.svg` (currently placeholder crossed-pickaxes mark).
+- **Logo** — `assets/images/logo/*.svg` (currently a placeholder crossed-pickaxes mark).
 - **Hero image** — `assets/images/hero/hero-bg.svg`.
 - **About visual** — `assets/images/about/about-mine.svg`.
-- **Project images** — `assets/images/projects/*/` (covers + screenshots).
-- **Project content** — `assets/js/projects.js` (the three sample projects are clearly marked "Project XX — Title to Be Added").
-- **Domain** — `robots.txt`, `sitemap.xml`, and the canonical/OG URLs in both pages.
+- **Photos for Projects 3–7** — these currently use generated SVG illustrations; replace them with real photos by dropping files into `assets/images/projects/<id>/` and updating `projects.js`.
 - **Contact form endpoint** — see section 9.
 
 ---
