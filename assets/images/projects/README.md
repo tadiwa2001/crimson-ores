@@ -4,13 +4,13 @@ Each project lives in its own folder, named after its `id` in `assets/js/project
 
 ```
 projects/
-├── project-001/   → cover.jpeg, screenshot-01.jpeg   (Smart Ventilation System)
-├── project-002/   → cover.jpeg, screenshot-01.jpeg   (Smart Torch)
-├── project-003/   → cover.svg                        (Solar Windlass)
-├── project-004/   → cover.svg                        (Solar Powered Water Recycling System)
-├── project-005/   → cover.svg                        (Shot Exploder)
-├── project-006/   → cover.svg                        (Construction Material from Waste)
-└── project-007/   → cover.svg                        (Rock Support Device)
+├── smart-torch/                     → cover.jpeg, screenshot-01.jpeg
+├── solarwindlass/                   → cover.svg
+├── shot-exploder/                   → cover.svg
+├── construction-material-from-waste/ → cover.svg
+├── solar-water-recycling/           → cover.svg
+├── rock-support-device/             → cover.svg
+└── smart-ventilation-system/        → cover.jpeg, screenshot-01.jpeg
 ```
 
 ## How to add screenshots

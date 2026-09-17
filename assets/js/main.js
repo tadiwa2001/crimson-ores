@@ -54,34 +54,10 @@
   /* ---------- Active navigation state ---------- */
   function initScrollSpy() {
     var page = document.body.getAttribute('data-page') || 'home';
-    var links = document.querySelectorAll('.nav__link[data-section]');
-
-    function setActive(section) {
-      links.forEach(function (link) {
-        link.classList.toggle('is-active', link.getAttribute('data-section') === section);
-      });
-    }
-
-    if (page === 'projects') {
-      setActive('projects');
-      return;
-    }
-
-    var sections = Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
-    if (!sections.length) return;
-
-    if (!('IntersectionObserver' in window)) {
-      setActive('home');
-      return;
-    }
-
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) setActive(entry.target.id);
-      });
-    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
-
-    sections.forEach(function (s) { observer.observe(s); });
+    var links = document.querySelectorAll('.nav__link[data-page]');
+    links.forEach(function (link) {
+      link.classList.toggle('is-active', link.getAttribute('data-page') === page);
+    });
   }
 
   /* ---------- Reveal on scroll (static content) ---------- */

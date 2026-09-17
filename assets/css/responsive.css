@@ -233,3 +233,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Multi-page additions ---------- */
+@media (max-width: 640px) {
+  .focus-detail {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .mv-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

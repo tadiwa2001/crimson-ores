@@ -1,6 +1,6 @@
 # Crimson Ores — Website
 
-A modern, responsive, two-page corporate website for **Crimson Ores**, a Zimbabwean mining-technology startup. Built with plain **HTML5, CSS3 and vanilla JavaScript** — no backend, no database, no build step — so it can be hosted anywhere for free and opened locally with a simple dev server.
+A modern, responsive, five-page corporate website for **Crimson Ores**, a Zimbabwean mining-technology startup. Built with plain **HTML5, CSS3 and vanilla JavaScript** — no backend, no database, no build step — so it can be hosted anywhere for free and opened locally with a simple dev server.
 
 > **Tagline:** Smart mining solutions for a safer, sustainable future.
 
@@ -8,10 +8,13 @@ A modern, responsive, two-page corporate website for **Crimson Ores**, a Zimbabw
 
 ## 1. What this is
 
-A production-ready static website with two pages:
+A production-ready static website with five pages:
 
-- **Home (`index.html`)** — hero, About, Mission/Vision/Core Principles, Focus Areas, Innovation, Safety & Sustainability, Featured Projects, Call-to-action, Contact, Footer.
-- **Projects (`projects.html`)** — portfolio hero, category filters, dynamically-rendered project cards, and a full project-detail view (with image gallery + lightbox) driven entirely by a JavaScript data file.
+- **Home (`index.html`)** — landing page with hero, short intro, featured innovations, focus-area preview and call-to-action.
+- **About Us (`about.html`)** — story, mission, vision, approach and core principles.
+- **Focus Areas (`focus-areas.html`)** — detailed engineering focus areas linked to related innovations.
+- **Innovations (`projects.html`)** — category filters, dynamically-rendered project cards, and a full project-detail view (image gallery + lightbox) driven by a JavaScript data file.
+- **Contact Us (`contact.html`)** — contact details and enquiry form.
 
 Projects are data-driven: adding a new project means editing **one array** in `assets/js/projects.js` — no HTML rewriting required.
 
@@ -21,8 +24,11 @@ Projects are data-driven: adding a new project means editing **one array** in `a
 
 ```
 crimson-ores/
-├── index.html               # Home page
-├── projects.html            # Projects page (+ project detail via ?id=)
+├── index.html               # Home (landing) page
+├── about.html               # About Us page
+├── focus-areas.html         # Focus Areas page
+├── projects.html            # Innovations / Projects page (+ detail via ?id=)
+├── contact.html             # Contact Us page
 ├── README.md                # This file
 ├── robots.txt               # Crawler rules (update the domain)
 ├── sitemap.xml              # Sitemap (update the domain)
