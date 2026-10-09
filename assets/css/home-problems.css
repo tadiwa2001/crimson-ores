@@ -1,0 +1,15 @@
+.problems-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 64px);
+  align-items: center;
+}
+.problems-copy p { margin: 0 0 1.25rem; line-height: 1.8; }
+.problems-copy p:last-child { margin-bottom: 0; }
+.problems-photo { margin: 0; min-width: 0; }
+.problems-photo img { display: block; width: 100%; height: auto; border-radius: 16px; }
+.problems-photo figcaption { margin-top: 12px; font-size: 0.85rem; line-height: 1.6; color: inherit; }
+@media (max-width: 960px) {
+  .problems-grid { grid-template-columns: 1fr; }
+  .problems-photo { width: 100%; max-width: 560px; margin-inline: auto; }
+}

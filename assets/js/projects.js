@@ -90,9 +90,10 @@
         'Prototype — the Solar Windlass is being developed and refined by Crimson Ores.',
       featured: true,
       related: ['solar-water-recycling'],
-      coverImage: 'assets/images/projects/solarwindlass/cover.svg',
+      coverImage: 'assets/images/projects/solarwindlass/cover.jpeg',
       gallery: [
-        { src: 'assets/images/projects/solarwindlass/cover.svg', caption: 'Solar Windlass' }
+        { src: 'assets/images/projects/solarwindlass/cover.jpeg', caption: 'Solar Windlass — drum and support frame' },
+        { src: 'assets/images/projects/solarwindlass/additional-view.jpeg', caption: 'Solar Windlass — additional view' }
       ]
     },
     {
@@ -128,9 +129,10 @@
         'Prototype — the Shot Exploder is being developed and refined by Crimson Ores.',
       featured: true,
       related: ['rock-support-device'],
-      coverImage: 'assets/images/projects/shot-exploder/cover.svg',
+      coverImage: 'assets/images/projects/shot-exploder/cover.jpeg',
       gallery: [
-        { src: 'assets/images/projects/shot-exploder/cover.svg', caption: 'Shot Exploder' }
+        { src: 'assets/images/projects/shot-exploder/cover.jpeg', caption: 'Shot Exploder prototype — angled view' },
+        { src: 'assets/images/projects/shot-exploder/front-view.jpeg', caption: 'Shot Exploder prototype — front view' }
       ]
     },
     {
@@ -166,9 +168,10 @@
         'Prototype — the Construction Material from Waste crusher is being developed and refined by Crimson Ores.',
       featured: false,
       related: ['solar-water-recycling'],
-      coverImage: 'assets/images/projects/construction-material-from-waste/cover.svg',
+      coverImage: 'assets/images/projects/construction-material-from-waste/cover.jpeg',
       gallery: [
-        { src: 'assets/images/projects/construction-material-from-waste/cover.svg', caption: 'Construction Material from Waste — crusher' }
+        { src: 'assets/images/projects/construction-material-from-waste/cover.jpeg', caption: 'Construction Material from Waste — material stockpile' },
+        { src: 'assets/images/projects/construction-material-from-waste/site-view.jpeg', caption: 'Construction Material from Waste — wider site view' }
       ]
     },
     {
@@ -209,9 +212,10 @@
         'Prototype — the Solar Powered Water Recycling System is being developed and refined by Crimson Ores.',
       featured: false,
       related: ['solarwindlass'],
-      coverImage: 'assets/images/projects/solar-water-recycling/cover.svg',
+      coverImage: 'assets/images/projects/solar-water-recycling/cover.jpeg',
       gallery: [
-        { src: 'assets/images/projects/solar-water-recycling/cover.svg', caption: 'Solar Powered Water Recycling System' }
+        { src: 'assets/images/projects/solar-water-recycling/cover.jpeg', caption: 'Solar Powered Water Recycling System — solar panel installation' },
+        { src: 'assets/images/projects/solar-water-recycling/site-view.jpeg', caption: 'Solar Powered Water Recycling System — wider site view' }
       ]
     },
     {
