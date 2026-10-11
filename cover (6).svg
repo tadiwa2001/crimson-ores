@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#0A1215"/>
+  <rect x="0" y="0" width="1200" height="64" fill="#0C1A1E"/>
+  <text x="40" y="40" fill="#8CE9EE" font-size="20" font-weight="700" letter-spacing="2">SHOT EXPLODER</text>
+  <text x="1160" y="40" fill="#7E9094" font-size="13" text-anchor="end">Remote electric blasting initiation</text>
+  <!-- device body -->
+  <rect x="460" y="300" width="280" height="190" rx="16" fill="#0E7F8A" stroke="#14DDE5" stroke-width="3"/>
+  <rect x="480" y="320" width="240" height="150" rx="10" fill="#0A1416"/>
+  <!-- plunger T-handle -->
+  <rect x="570" y="200" width="60" height="100" rx="8" fill="#2A3A3E" stroke="#AEBFC1" stroke-width="3"/>
+  <rect x="540" y="180" width="120" height="24" rx="8" fill="#14DDE5"/>
+  <text x="600" y="197" fill="#041B1F" font-size="12" font-weight="700" text-anchor="middle">FIRE</text>
+  <!-- crank handle -->
+  <g stroke="#FFD166" stroke-width="5" stroke-linecap="round" fill="none">
+    <circle cx="460" cy="430" r="22" stroke-width="3"/>
+    <line x1="460" y1="430" x2="460" y2="380"/>
+    <line x1="460" y1="380" x2="486" y2="368" stroke-width="4"/>
+  </g>
+  <text x="430" y="476" fill="#7E9094" font-size="12" text-anchor="middle">Crank (self-generating)</text>
+  <!-- indicator light -->
+  <circle cx="600" cy="360" r="8" fill="#2ECC71"/>
+  <text x="620" y="364" fill="#7E9094" font-size="12">Ready</text>
+  <!-- wires -->
+  <g stroke="#FFD166" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M520 490 C 480 560 300 560 300 620"/>
+    <path d="M680 490 C 720 560 900 560 900 620"/>
+  </g>
+  <!-- detonator / charge -->
+  <rect x="240" y="620" width="120" height="46" rx="8" fill="#0A1416" stroke="#FFD166" stroke-width="2"/>
+  <text x="300" y="648" fill="#FFD166" font-size="12" font-weight="600" text-anchor="middle">DETONATOR</text>
+  <g transform="translate(900,643)">
+    <circle cx="0" cy="0" r="30" fill="#0A1416" stroke="#FFD166" stroke-width="2"/>
+    <text x="0" y="5" fill="#FFD166" font-size="20" font-weight="700" text-anchor="middle">!</text>
+  </g>
+  <text x="900" y="690" fill="#7E9094" font-size="12" text-anchor="middle">Charge</text>
+  <!-- distance arrow -->
+  <g stroke="#14DDE5" stroke-width="3" stroke-dasharray="8 6">
+    <line x1="340" y1="540" x2="860" y2="540"/>
+  </g>
+  <path d="M852 540 l-14 -8 v16 z" fill="#14DDE5"/>
+  <text x="600" y="524" fill="#14DDE5" font-size="14" font-weight="600" text-anchor="middle">SAFE DISTANCE</text>
+  <rect x="120" y="704" width="960" height="56" rx="8" fill="#0C1A1E"/>
+  <text x="140" y="738" fill="#AEBFC1" font-size="15" font-weight="600">Distance is safety.</text>
+</svg>

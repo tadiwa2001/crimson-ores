@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/improvements.css">
 </head>
 <body data-page="projects">
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
+    <nav class="nav container-fluid px-3 px-md-4 px-xl-5 site-container" aria-label="Primary navigation">
       <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
         <img class="brand__logo" src="assets/images/logo/logo-white.svg" alt="Crimson Ores logo" width="186" height="40">
       </a>
@@ -49,9 +51,10 @@
   </header>
 
   <main id="main-content">
+<div id="project-load-error" class="container-fluid site-container alert" hidden role="status">Project information is currently unavailable. <a href="projects.html">Back to Innovations</a></div>
     <div id="projects-index">
       <section class="page-hero">
-        <div class="container">
+        <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
           <span class="eyebrow">Our Innovations</span>
           <h1 class="page-hero__title">Our Innovations</h1>
           <p class="page-hero__text">Every Crimson Ores project tackles a real safety, cost, or sustainability problem faced by miners today.</p>
@@ -59,10 +62,10 @@
       </section>
 
       <section class="section">
-        <div class="container">
+        <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
           <div class="filters" id="filter-bar" role="group" aria-label="Filter innovations by category"></div>
 
-          <div class="project-grid" id="projects-grid"></div>
+          <div class="project-grid row g-4" id="projects-grid"></div>
 
           <p class="projects-empty" id="projects-empty">No innovations found for this category yet.</p>
         </div>
@@ -70,11 +73,11 @@
     </div>
 
     <section class="section" id="project-detail" hidden>
-      <div class="container" id="project-detail-inner"></div>
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container" id="project-detail-inner"></div>
     </section>
   </main>
   <footer class="site-footer">
-    <div class="container">
+    <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
       <div class="footer__top">
         <div class="footer__brand">
           <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
@@ -119,6 +122,8 @@
     </div>
   </footer>
 
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/resilience.js" defer></script>
   <script src="assets/js/projects.js" defer></script>
   <script src="assets/js/project-gallery.js" defer></script>
   <script src="assets/js/main.js" defer></script>

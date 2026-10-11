@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/improvements.css">
 </head>
 <body data-page="focus-areas">
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
+    <nav class="nav container-fluid px-3 px-md-4 px-xl-5 site-container" aria-label="Primary navigation">
       <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
         <img class="brand__logo" src="assets/images/logo/logo-white.svg" alt="Crimson Ores logo" width="186" height="40">
       </a>
@@ -50,7 +52,7 @@
 
   <main id="main-content">
     <section class="page-hero">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <span class="eyebrow">Focus Areas</span>
         <h1 class="page-hero__title">Our Focus Areas</h1>
         <p class="page-hero__text">Engineering across the core challenges of modern mining.</p>
@@ -58,7 +60,7 @@
     </section>
 
     <section class="section">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head reveal">
           <p class="lead">Our work focuses on key engineering areas that influence the safety, productivity and sustainability of mining operations.</p>
         </div>
@@ -146,7 +148,7 @@
       </div>
     </section>
     <section class="cta">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="cta__inner reveal">
           <h2>From Focus Area to Working Solution</h2>
           <p>See how these engineering areas become real safety, cost and sustainability innovations.</p>
@@ -159,7 +161,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
       <div class="footer__top">
         <div class="footer__brand">
           <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
@@ -204,6 +206,8 @@
     </div>
   </footer>
 
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/resilience.js" defer></script>
   <script src="assets/js/projects.js" defer></script>
   <script src="assets/js/project-gallery.js" defer></script>
   <script src="assets/js/main.js" defer></script>

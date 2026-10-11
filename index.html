@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,15 +20,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
   <link rel="stylesheet" href="assets/css/home-problems.css">
+  <link rel="stylesheet" href="assets/css/improvements.css">
 </head>
 <body data-page="home">
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
+    <nav class="nav container-fluid px-3 px-md-4 px-xl-5 site-container" aria-label="Primary navigation">
       <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
         <img class="brand__logo" src="assets/images/logo/logo-white.svg" alt="Crimson Ores logo" width="186" height="40">
       </a>
@@ -53,7 +55,7 @@
     <section class="hero" id="home">
       <div class="hero__bg"><img src="assets/images/hero/hero-bg.svg" alt="" aria-hidden="true" width="1600" height="900" fetchpriority="high"></div>
       <div class="hero__overlay"></div>
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="hero__inner">
           <span class="hero__badge"><span class="dot"></span> Mining Technology &amp; Engineering</span>
           <h1 class="hero__title">Crimson <span class="grad-text">Ores</span></h1>
@@ -68,7 +70,7 @@
     </section>
 
     <section class="section" id="intro">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head section-head--center reveal">
           <span class="eyebrow">Who We Are</span>
           <h2>Engineering a Smarter Future for Mining</h2>
@@ -83,7 +85,7 @@
       </div>
     </section>
     <section class="section" id="problems-we-solve" aria-labelledby="problems-title">
-      <div class="container problems-grid">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container problems-grid">
         <div class="problems-copy">
           <div class="section-head">
             <h2 id="problems-title">The Problems We Solve</h2>
@@ -100,14 +102,14 @@
       </div>
     </section>
     <section class="section section--alt" id="innovations">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head section-head--center reveal">
           <span class="eyebrow">Our Work</span>
           <h2>Our Innovations</h2>
           <p class="lead">Every Crimson Ores project tackles a real safety, cost, or sustainability problem faced by miners today.</p>
         </div>
 
-        <div class="project-grid" id="featured-grid">
+        <div class="project-grid row g-4" id="featured-grid">
           <!-- Featured innovations are rendered here by projects.js -->
         </div>
 
@@ -120,42 +122,42 @@
     </section>
 
     <section class="section" id="focus-areas">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head section-head--center reveal">
           <span class="eyebrow">What We Do</span>
           <h2>Our Focus Areas</h2>
         </div>
 
-        <div class="focus-grid">
-          <article class="focus-card reveal" data-delay="1">
+        <div class="focus-grid row g-4">
+          <div class="col-12 col-md-6 col-lg-4"><article class="focus-card card h-100 reveal" data-delay="1">
             <span class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></span>
             <h3>Mine Planning and Design</h3>
             <p>Smarter layouts and resource planning.</p>
-          </article>
+          </article></div>
 
-          <article class="focus-card reveal" data-delay="2">
+          <div class="col-12 col-md-6 col-lg-4"><article class="focus-card card h-100 reveal" data-delay="2">
             <span class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></span>
             <h3>Drilling and Blasting</h3>
             <p>Safer, more controlled blasting.</p>
-          </article>
+          </article></div>
 
-          <article class="focus-card reveal" data-delay="3">
+          <div class="col-12 col-md-6 col-lg-4"><article class="focus-card card h-100 reveal" data-delay="3">
             <span class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/></svg></span>
             <h3>Mine Ventilation and Environmental Monitoring</h3>
             <p>Air quality and working conditions.</p>
-          </article>
+          </article></div>
 
-          <article class="focus-card reveal" data-delay="1">
+          <div class="col-12 col-md-6 col-lg-4"><article class="focus-card card h-100 reveal" data-delay="1">
             <span class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 12 10 5 10-5"/><path d="m2 17 10 5 10-5"/></svg></span>
             <h3>Rock Mechanics</h3>
             <p>Ground stability and risk monitoring.</p>
-          </article>
+          </article></div>
 
-          <article class="focus-card reveal" data-delay="2">
+          <div class="col-12 col-md-6 col-lg-4"><article class="focus-card card h-100 reveal" data-delay="2">
             <span class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>
             <h3>Ore Handling and Transportation</h3>
             <p>Smarter movement of ore.</p>
-          </article>
+          </article></div>
         </div>
 
         <div class="featured-foot reveal">
@@ -166,7 +168,7 @@
       </div>
     </section>
     <section class="cta">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="cta__inner reveal">
           <h2>Building the Future of Mining</h2>
           <p>Have a mining challenge, engineering problem or innovation opportunity? Connect with Crimson Ores.</p>
@@ -180,7 +182,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
       <div class="footer__top">
         <div class="footer__brand">
           <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
@@ -225,6 +227,8 @@
     </div>
   </footer>
 
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/resilience.js" defer></script>
   <script src="assets/js/projects.js" defer></script>
   <script src="assets/js/project-gallery.js" defer></script>
   <script src="assets/js/main.js" defer></script>

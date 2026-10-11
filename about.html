@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/improvements.css">
 </head>
 <body data-page="about">
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
+    <nav class="nav container-fluid px-3 px-md-4 px-xl-5 site-container" aria-label="Primary navigation">
       <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
         <img class="brand__logo" src="assets/images/logo/logo-white.svg" alt="Crimson Ores logo" width="186" height="40">
       </a>
@@ -50,7 +52,7 @@
 
   <main id="main-content">
     <section class="page-hero">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <span class="eyebrow">About Us</span>
         <h1 class="page-hero__title">About Crimson Ores</h1>
         <p class="page-hero__text">Engineering practical solutions for the future of mining.</p>
@@ -58,7 +60,7 @@
     </section>
 
     <section class="section" id="story">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head reveal">
           <span class="eyebrow">Our Story</span>
           <h2>Our Story</h2>
@@ -76,7 +78,7 @@
       </div>
     </section>
     <section class="section" id="team-information" aria-labelledby="team-title">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head section-head--center">
           <h2 id="team-title">Team Information</h2>
         </div>
@@ -89,7 +91,7 @@
       </div>
     </section>
     <section class="section section--alt" id="mission-vision">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head section-head--center reveal">
           <span class="eyebrow">Purpose</span>
           <h2>Our Mission &amp; Vision</h2>
@@ -109,7 +111,7 @@
     </section>
 
     <section class="section" id="approach">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head reveal">
           <span class="eyebrow">Our Approach</span>
           <h2>Innovation That Solves Real Mining Problems</h2>
@@ -168,7 +170,7 @@
       </div>
     </section>
     <section class="section section--alt" id="principles">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="section-head section-head--center reveal">
           <span class="eyebrow">Core Principles</span>
           <h2>Our Core Principles</h2>
@@ -200,7 +202,7 @@
     </section>
 
     <section class="section section--surface" id="safety">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="safety-statement reveal">
           <p class="statement-line">Safer mining.<br><em>Smarter operations.</em><br>Sustainable futures.</p>
           <p class="lead safety-intro">Crimson Ores aims to combine engineering, technology and responsible innovation to address the challenges affecting mining operations.</p>
@@ -234,7 +236,7 @@
       </div>
     </section>
     <section class="cta">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="cta__inner reveal">
           <h2>Building the Future of Mining</h2>
           <p>Explore the engineering systems and prototypes Crimson Ores is developing for safer, smarter mining.</p>
@@ -247,7 +249,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
       <div class="footer__top">
         <div class="footer__brand">
           <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
@@ -292,6 +294,8 @@
     </div>
   </footer>
 
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/resilience.js" defer></script>
   <script src="assets/js/projects.js" defer></script>
   <script src="assets/js/project-gallery.js" defer></script>
   <script src="assets/js/main.js" defer></script>

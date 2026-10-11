@@ -1,0 +1,37 @@
+body { overflow-x:visible; }
+.site-container { width:100%; max-width:1680px; margin-inline:auto; }
+@media(min-width:992px) { .nav.site-container { width:calc((100% - 96px) * .833333 + 72px); max-width:1392px; } }
+@media(min-width:1200px) { .nav.site-container { width:calc((100% - 96px) * .916667 + 72px); max-width:1524px; } }
+.section { padding-block:clamp(48px,6vw,84px); }
+.section-head { margin-bottom:32px; }
+.center-block { max-width:1000px; }
+.focus-grid.row,.project-grid.row,.pd-head.row { display:flex; gap:0; }
+.row > * { min-width:0; }
+.card { background:var(--surface); color:var(--muted); border:1px solid var(--border); border-radius:var(--radius-lg); }
+.project-card { width:100%; display:flex; flex-direction:column; }
+.project-card__body { display:flex; flex:1; flex-direction:column; }
+.project-card__foot { margin-top:auto; }
+.project-card,.focus-card { transition:transform .2s,border-color .2s,box-shadow .2s; }
+.project-card:hover,.project-card:focus-within,.focus-card:hover,.focus-card:focus-within { transform:translateY(-4px); border-color:var(--teal); box-shadow:0 12px 30px rgba(0,140,149,.15); }
+.js .project-card.in-view:hover,.js .project-card.in-view:focus-within,.js .focus-card.in-view:hover,.js .focus-card.in-view:focus-within { transform:translateY(-4px); }
+:focus-visible { outline:3px solid var(--cyan); outline-offset:4px; }
+.project-card__media { aspect-ratio:auto; height:auto; }
+.project-card__media img { width:100%; height:280px; object-fit:contain; transform:none!important; }
+.image-trigger { display:block; width:100%; padding:0; border:0; background:transparent; color:inherit; }
+.pd-head.row { margin-bottom:32px; }
+.pd-cover { order:initial; }
+.pd-cover img { width:100%; height:auto; max-height:520px; object-fit:contain; }
+.pd-section.card { padding:clamp(20px,3vw,32px); margin-bottom:24px; }
+.pd-section > p { max-width:none; }
+.gallery-item { aspect-ratio:auto; height:auto; margin:0; }
+.gallery-item img { height:260px; object-fit:contain; }
+.gallery-item figcaption { position:static; opacity:1; transform:none; background:var(--surface); padding:12px; }
+.gallery-item::after { display:none; }
+.modal { z-index:2000; }
+.modal-backdrop { z-index:1990; }
+.modal-content { background:var(--surface); border-color:var(--border-strong); color:var(--white); }
+.modal-body img { width:100%; max-height:72vh; object-fit:contain; }
+.modal-title { font-size:1.3rem; }
+.modal-footer { justify-content:space-between; }
+.form-status--pending { display:block; color:var(--cyan); }
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important; transition:none!important; animation:none!important; } .project-card:hover,.project-card:focus-within,.focus-card:hover { transform:none; } }

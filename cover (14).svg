@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="1200" height="800" fill="#0A1215"/>
+  <rect x="0" y="0" width="1200" height="64" fill="#0C1A1E"/>
+  <text x="40" y="40" fill="#8CE9EE" font-size="20" font-weight="700" letter-spacing="2">SOLAR WINDLASS</text>
+  <text x="1160" y="40" fill="#7E9094" font-size="13" text-anchor="end">Shaft hoisting · up to 30 m</text>
+  <!-- ground -->
+  <rect x="120" y="560" width="960" height="14" rx="4" fill="#102227"/>
+  <text x="130" y="600" fill="#3E4A4C" font-size="11">GROUND LEVEL</text>
+  <!-- shaft opening -->
+  <rect x="470" y="574" width="260" height="160" fill="#05090A" stroke="#14DDE5" stroke-opacity="0.4" stroke-width="2"/>
+  <!-- A-frame -->
+  <g stroke="#AEBFC1" stroke-width="8" stroke-linecap="round">
+    <line x1="430" y1="560" x2="600" y2="300"/>
+    <line x1="770" y1="560" x2="600" y2="300"/>
+  </g>
+  <line x1="600" y1="300" x2="600" y2="240" stroke="#AEBFC1" stroke-width="8" stroke-linecap="round"/>
+  <!-- pulley -->
+  <circle cx="600" cy="240" r="22" fill="none" stroke="#14DDE5" stroke-width="6"/>
+  <circle cx="600" cy="240" r="6" fill="#14DDE5"/>
+  <!-- motor + drum -->
+  <rect x="700" y="470" width="160" height="90" rx="10" fill="#0E7F8A" stroke="#14DDE5" stroke-width="2"/>
+  <text x="780" y="520" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="middle">MOTOR</text>
+  <text x="780" y="540" fill="#8CE9EE" font-size="11" text-anchor="middle">windlass drum</text>
+  <!-- solar panel -->
+  <rect x="700" y="300" width="180" height="100" rx="8" fill="#0A3A3E" transform="rotate(-14 790 350)"/>
+  <g stroke="#14DDE5" stroke-width="2" opacity="0.8" transform="rotate(-14 790 350)">
+    <line x1="712" y1="330" x2="868" y2="330"/><line x1="712" y1="360" x2="868" y2="360"/>
+    <line x1="712" y1="390" x2="868" y2="390"/>
+    <line x1="740" y1="300" x2="740" y2="400"/><line x1="790" y1="300" x2="790" y2="400"/><line x1="840" y1="300" x2="840" y2="400"/>
+  </g>
+  <!-- sun -->
+  <circle cx="300" cy="150" r="46" fill="none" stroke="#FFD166" stroke-width="3"/>
+  <g stroke="#FFD166" stroke-width="3" stroke-linecap="round">
+    <line x1="300" y1="84" x2="300" y2="66"/><line x1="300" y1="216" x2="300" y2="234"/>
+    <line x1="234" y1="150" x2="216" y2="150"/><line x1="366" y1="150" x2="384" y2="150"/>
+    <line x1="253" y1="103" x2="240" y2="90"/><line x1="347" y1="197" x2="360" y2="210"/>
+    <line x1="347" y1="103" x2="360" y2="90"/><line x1="253" y1="197" x2="240" y2="210"/>
+  </g>
+  <!-- rope -->
+  <line x1="600" y1="262" x2="600" y2="650" stroke="#8CE9EE" stroke-width="4"/>
+  <!-- kibble bucket -->
+  <path d="M560 650 h80 l-12 60 h-56 z" fill="#0E7F8A" stroke="#14DDE5" stroke-width="2"/>
+  <path d="M566 650 l34 -28 l34 28" fill="none" stroke="#AEBFC1" stroke-width="3"/>
+  <!-- labels -->
+  <g fill="#7E9094" font-size="12">
+    <line x1="790" y1="360" x2="900" y2="430" stroke="#7E9094" stroke-width="1"/><text x="906" y="434">Solar panel</text>
+    <line x1="760" y1="515" x2="900" y2="520" stroke="#7E9094" stroke-width="1"/><text x="906" y="524">Motor &amp; drum</text>
+    <line x1="622" y1="262" x2="700" y2="220" stroke="#7E9094" stroke-width="1"/><text x="700" y="214">Hoist rope</text>
+    <line x1="600" y1="650" x2="680" y2="680" stroke="#7E9094" stroke-width="1"/><text x="684" y="684">Kibble (bucket)</text>
+  </g>
+  <rect x="120" y="704" width="960" height="56" rx="8" fill="#0C1A1E"/>
+  <text x="140" y="738" fill="#AEBFC1" font-size="15" font-weight="600">Powering up small-scale mining, safely.</text>
+</svg>

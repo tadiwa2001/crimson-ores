@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Crimson Ores mark">
+  <defs>
+    <linearGradient id="g" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#008C95"/>
+      <stop offset="1" stop-color="#14DDE5"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(32 32) rotate(-45)">
+    <path d="M -22 -15 Q 0 -23 22 -15 Q 0 -18 -22 -15 Z" fill="url(#g)"/>
+    <line x1="0" y1="16" x2="0" y2="-13" stroke="url(#g)" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(32 32) rotate(45)" opacity="0.9">
+    <path d="M -22 -15 Q 0 -23 22 -15 Q 0 -18 -22 -15 Z" fill="url(#g)"/>
+    <line x1="0" y1="16" x2="0" y2="-13" stroke="url(#g)" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+  <path d="M 32 27 L 36.5 32 L 32 37 L 27.5 32 Z" fill="url(#g)"/>
+</svg>

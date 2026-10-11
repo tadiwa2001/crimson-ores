@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/improvements.css">
 </head>
 <body data-page="contact">
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
+    <nav class="nav container-fluid px-3 px-md-4 px-xl-5 site-container" aria-label="Primary navigation">
       <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
         <img class="brand__logo" src="assets/images/logo/logo-white.svg" alt="Crimson Ores logo" width="186" height="40">
       </a>
@@ -50,7 +52,7 @@
 
   <main id="main-content">
     <section class="page-hero">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <span class="eyebrow">Contact Us</span>
         <h1 class="page-hero__title">Let's Talk Mining Innovation</h1>
         <p class="page-hero__text">Have a mining challenge, partnership opportunity or innovative idea? Get in touch with Crimson Ores.</p>
@@ -58,7 +60,7 @@
     </section>
 
     <section class="section">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
         <div class="contact__grid">
           <div class="contact-info reveal">
             <a class="contact-item" href="tel:+263719096214">
@@ -122,14 +124,14 @@
             <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
 
             <div class="form-status" role="status" aria-live="polite"></div>
-            <p class="form-note">This form is ready to connect to a free form provider (Formspree or Netlify Forms) — see the README for one-line setup.</p>
+            <p class="form-note">Online messaging is currently unavailable. Please email <a href="mailto:crimsonores@gmail.com">crimsonores@gmail.com</a>.</p>
           </form>
         </div>
       </div>
     </section>
   </main>
   <footer class="site-footer">
-    <div class="container">
+    <div class="container-fluid px-3 px-md-4 px-xl-5 site-container">
       <div class="footer__top">
         <div class="footer__brand">
           <a class="brand" href="index.html" aria-label="Crimson Ores — Home">
@@ -174,6 +176,8 @@
     </div>
   </footer>
 
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/resilience.js" defer></script>
   <script src="assets/js/projects.js" defer></script>
   <script src="assets/js/project-gallery.js" defer></script>
   <script src="assets/js/main.js" defer></script>
